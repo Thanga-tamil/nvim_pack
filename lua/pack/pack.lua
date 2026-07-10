@@ -12,8 +12,6 @@ vim.pack.add({
   'https://github.com/neovim/nvim-lspconfig',
   'https://github.com/nvim-treesitter/nvim-treesitter',
   'https://github.com/mason-org/mason.nvim',
-  'https://github.com/Saghen/blink.lib',
-  'https://github.com/Saghen/blink.cmp',
 })
 
 require('mini.basics').setup()
@@ -29,8 +27,3 @@ require("plugins.filetree")
 require("mason").setup()
 vim.lsp.enable({ 'lua_ls', 'gopls' })
 
-require("blink.cmp").setup({
-  sources = {
-    default = { "lsp", "path", "buffer" },
-  },
-})
