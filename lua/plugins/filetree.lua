@@ -3,12 +3,15 @@ vim.pack.add({
   "https://github.com/nvim-tree/nvim-web-devicons",
 })
 
-
--- Disable netrw
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
+-- Keep netrw enabled.
+-- Do NOT set:
+-- vim.g.loaded_netrw = 1
+-- vim.g.loaded_netrwPlugin = 1
 
 require("nvim-tree").setup({
+  hijack_netrw = false,      -- Don't replace netrw
+  disable_netrw = false,     -- Keep netrw enabled
+
   renderer = {
     icons = {
       show = {
@@ -21,9 +24,7 @@ require("nvim-tree").setup({
   },
 })
 
-
 vim.keymap.set("n", "<leader>t", "<cmd>NvimTreeToggle<CR>", {
   silent = true,
-  desc = "Toggle File Tree",
+  desc = "Toggle NvimTree",
 })
-
