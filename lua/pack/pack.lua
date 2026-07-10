@@ -24,6 +24,7 @@ require("plugins.treesitter")
 require("plugins.undotree")
 require("plugins.telescope")
 require("plugins.keymaps")
+require("plugins.filetree")
 
 require("mason").setup()
 vim.lsp.enable({ 'lua_ls', 'gopls' })
