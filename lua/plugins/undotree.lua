@@ -1,12 +1,7 @@
-return {
+vim.pack.add({
+  "https://github.com/jiaoshijie/undotree",
+})
 
-	{
-		"jiaoshijie/undotree",
-		opts = {
-			-- your options
-		},
-		keys = { -- load the plugin only when using it's keybinding:
-			{ "<leader>u", "<cmd>lua require('undotree').toggle()<cr>" },
-		},
-	},
-}
+vim.keymap.set("n", "<leader>u", function()
+  require("undotree").toggle()
+end, { desc = "Toggle UndoTree" })
