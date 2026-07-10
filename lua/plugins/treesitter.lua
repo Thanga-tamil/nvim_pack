@@ -33,6 +33,7 @@ require("nvim-treesitter").setup({
     "xml",
     "yaml",
     "go",
+    "gopls",
   },
 
   highlight = {
