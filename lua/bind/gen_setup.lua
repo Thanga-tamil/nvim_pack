@@ -34,3 +34,5 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.opt.clipboard = 'unnamedplus'
 
+vim.opt.cursorline = false
+vim.opt.cursorcolumn = false
