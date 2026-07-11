@@ -34,6 +34,8 @@ require("nvim-treesitter").setup({
     "yaml",
     "go",
     "gopls",
+    "ols",
+    "odin",
   },
 
   highlight = {
