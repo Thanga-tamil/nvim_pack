@@ -34,7 +34,6 @@ require("nvim-treesitter").setup({
     "yaml",
     "go",
     "gopls",
-    "ols",
     "odin",
   },
 
@@ -104,14 +103,21 @@ require("nvim-treesitter").setup({
   ensure_installed = {
     "diff",
     "html",
+    "javascript",
     "json",
     "lua",
     "luadoc",
     "luap",
+    "printf",
+    "python",
+    "query",
+    "vim",
+    "vimdoc",
     "xml",
     "yaml",
     "go",
     "gopls",
+    "odin",
   },
 
   highlight = {
