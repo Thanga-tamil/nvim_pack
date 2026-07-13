@@ -16,6 +16,10 @@
       "rev": "fdc8b9701616863e44f7a7a0802cfe16bd866539",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
+    "mini.pairs": {
+      "rev": "b1fd9df3bb4a41c8f45778a3859ee80ef6b367e3",
+      "src": "https://github.com/nvim-mini/mini.pairs"
+    },
     "neovim": {
       "rev": "ff483051a47e27d84bdef47703538df1ed9f4a47",
       "src": "https://github.com/rose-pine/neovim"
