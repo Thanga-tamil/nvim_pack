@@ -30,4 +30,5 @@ require("plugins.keymaps")
 require("plugins.filetree")
 require("plugins.completion")
 require("plugins.pairs")
+require("plugins.grug_far")
 
