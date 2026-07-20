@@ -9,7 +9,7 @@ end, {
   desc = "Find files",
 })
 
-vim.keymap.set("n", "tg", function()
+vim.keymap.set("n", "<leader>g", function()
   local search_term = vim.fn.input("Grep > ")
   require("telescope.builtin").grep_string({
     search = search_term,
