@@ -35,6 +35,7 @@ require("nvim-treesitter").setup({
     "go",
     "gopls",
     "odin",
+    "elp",
   },
 
   highlight = {
@@ -118,6 +119,7 @@ require("nvim-treesitter").setup({
     "go",
     "gopls",
     "odin",
+    "elp",
   },
 
   highlight = {

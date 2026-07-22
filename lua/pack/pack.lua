@@ -20,7 +20,7 @@ require('mini.basics').setup()
 require('mini.surround').setup()
 
 require("mason").setup()
-vim.lsp.enable({ 'lua_ls', 'gopls', 'ols', 'odin' })
+vim.lsp.enable({ 'lua_ls', 'gopls', 'ols', 'odin', 'elp' })
 
 require("plugins.colorscheme")
 require("plugins.treesitter")
